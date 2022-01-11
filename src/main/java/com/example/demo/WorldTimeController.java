@@ -16,8 +16,7 @@ public class WorldTimeController {
 	{  
 	return "ABCDEF " + new Date().toLocaleString();
 	}  
-	
-	
+
 	@RequestMapping("/los-angeles") 
 	public String dateTime() {
 		Date date = new Date();
