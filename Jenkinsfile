@@ -4,14 +4,13 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                
                 // Run Maven on a Unix agent.
-                sh "mvn -DskipTests clean package"
+                sh 'mvn -DskipTests clean package'
             }
-            steps('Test') {
-                
+        stage('Test') {
+            steps {            
                 // Run Maven on a Unix agent.
-                sh "mvn test"
+                sh 'mvn test'
             }
         }
     }
