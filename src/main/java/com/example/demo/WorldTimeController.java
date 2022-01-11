@@ -14,7 +14,7 @@ public class WorldTimeController {
 	@RequestMapping("/")  
 	public String currentTime()   
 	{  
-	return "ABCDEFGHI " + new Date().toLocaleString();
+	return "ABCDEFGHIJ " + new Date().toLocaleString();
 	}  
 
 	@RequestMapping("/los-angeles") 
