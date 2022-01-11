@@ -10,7 +10,7 @@
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.demo.hello</groupId>
-	<artifactId>spring-boot-hello-world-example</artifactId>
+	<artifactId>world-time-app</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 	<name>FirstProject</name>
